@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.lambda-img {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 30px 20px 40px 0px;
+}
+
+.lambda-img {
+margin-right: 40px;
+}
+
+.top-img {
+    margin: 0px 20px 30px 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +127,110 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.box1 {
+    background: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    background: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    background: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    background: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    background: dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +269,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+    button {
+    color: black;
+	width: 130px;
+	height: 37px;
+	border: solid black 1px;
+  	text-align: center;
+    text-decoration: none;
+    font-size: 11.5pt;
+    margin-top: 20px;
+    }
+
+    
+    .about-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-bottom: black dotted 2px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    border-bottom: black dotted 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.strategy-img {
+    margin-bottom: 20px;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    border-bottom: black dotted 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.how-img {
+    margin-bottom: 20px;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    border-bottom: black dotted 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.places-img {
+    margin-bottom: 20px;
+}
+
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    border-bottom: black dotted 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.collaboration-img {
+    margin-bottom: 20px;
+}
+
+.work-together {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
